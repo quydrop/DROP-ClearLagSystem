@@ -21,8 +21,8 @@ class Main extends PluginBase implements Listener{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
-    	public function onCommand(CommandSender $player, Command $cmd, string $label, array $args) : bool{
-            if($cmd->getName() == "clearlag"){
+    	public function onCommand(CommandSender $player, Command $command, string $label, array $args) : bool{
+            if($command->getName() == "clearlag"){
                 $memory = memory_get_usage();
                 $entityCount = 0;
                 foreach($this->getServer()->getLevels() as $level){
