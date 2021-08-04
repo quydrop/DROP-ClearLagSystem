@@ -9,8 +9,6 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\event\Listener;
-use pocketmine\event\player\{PlayerInteractEvent, PlayerItemHeldEvent, PlayerJoinEvent, PlayerChatEvent};
-use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\entity\object\ItemEntity;
 use pocketmine\level\Level;
 
