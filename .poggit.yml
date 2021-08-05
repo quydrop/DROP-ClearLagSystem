@@ -4,6 +4,6 @@ branches:
 - main
 projects:
   ClearLagSystem:
-    path: "/"
-    icon: "20210805_234531.jpg"
+    path: ""
+    icon: icon.png
 ...
