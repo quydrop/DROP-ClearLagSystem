@@ -2,7 +2,7 @@ name: DROP-ClearLagSystem
 author: QuyDrop
 api: 3.0.0
 version: 1.0
-main: ClearLagSystem\Main
+main: QuyDrop\DROP-ClearLagSystem\Main
 commands:
  clearlag:
   description: "CLEARLAG SYSTEM"
