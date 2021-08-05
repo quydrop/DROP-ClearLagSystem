@@ -34,9 +34,9 @@ class Main extends PluginBase implements Listener{
                         }
                     }
                 }
-                $this->getLogger()->info("\n\n\n§l§c{$entityCount}MB§a VẬT PHẨM ĐÃ ĐƯỢC XOÁ \n\n\n");
+                $this->getLogger()->info("\n\n\n§l§c{$entityCount}MB§a Item(s) have/has been removed by system \n\n\n");
                 $value = number_format(round((($memory - memory_get_usage()) / 1024) / 1024, 2));
-                $this->getLogger()->info("\n\n\n§l§c{$value}MB§a CACHE ĐÃ ĐƯỢC DỌN \n\n\n");
+                $this->getLogger()->info("\n\n\n§l§c{$value}MB§a Cache have/has been removed by system \n\n\n");
             }
 		return true;
     	}
