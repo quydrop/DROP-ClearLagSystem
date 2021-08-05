@@ -4,6 +4,6 @@ branches:
 - main
 projects:
   DROP-ClearLagSystem:
-    path: ""
-    icon: "https://avatars.githubusercontent.com/u/30586899?s=1080&v=4"
+    path: "/"
+    icon: "20210805_234531.jpg"
 ...
