@@ -11,11 +11,8 @@ use pocketmine\command\ConsoleCommandSender;
 use pocketmine\entity\object\ItemEntity;
 use pocketmine\level\Level;
 
-class Main extends PluginBase{
 
-    public function onEnable(){
-        $this->getServer()->getPluginManager()->registerEvents($this, $this);
-    }
+class Main extends PluginBase{
 
     	public function onCommand(CommandSender $player, Command $command, string $label, array $args) : bool{
             if($command->getName() == "clearlag"){
