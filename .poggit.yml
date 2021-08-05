@@ -3,7 +3,7 @@ build-by-default: true
 branches:
 - main
 projects:
-  DROP-ClearLagSystem:
+  ClearLagSystem:
     path: "/"
     icon: "20210805_234531.jpg"
 ...
